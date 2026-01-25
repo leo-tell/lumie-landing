@@ -3,11 +3,14 @@ export default function HeroSection() {
     <section className="relative min-h-[800px] flex items-center justify-center px-6 py-32">
       {/* Background image placeholder - adicionar imagem em /public/assets/images/header.jpg */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/30 z-0">
-        <div className="w-full h-full bg-[url('/assets/images/hero.jpg')] bg-cover bg-center opacity-60" />
+        <div className="w-full h-full bg-[url('/assets/images/hero-bg.jpg')] bg-cover bg-center opacity-60" />
       </div>
       
       <div className="relative z-10 text-center max-w-4xl mx-auto">
-        {/* decorative overlay removed to show full hero image */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="grid grid-cols-8 gap-1 opacity-80">
+          </div>
+        </div>
         
         <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{ marginBottom: '30px' }}>
           Transformando educação,{' '}

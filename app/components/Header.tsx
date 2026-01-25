@@ -7,8 +7,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-            {/* Logo placeholder - adicionar logo em /public/assets/images/logo.png */}
-            <span className="text-[#05112B] font-bold text-sm">L</span>
+            <Image src="/assets/images/logo.png" alt="Logo" width={32} height={32} />
           </div>
           <span className="font-semibold text-lg">Lumie</span>
         </div>

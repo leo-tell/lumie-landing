@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FacebookIcon, InstagramIcon, YouTubeIcon } from './SocialIcons';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 mb-4">
             <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-              <span className="text-[#05112B] font-bold text-sm">L</span>
+              <Image src="/assets/images/logo.png" alt="Logo" width={32} height={32} />
             </div>
             <span className="font-semibold text-lg">Lumie Institute of Neurodiversity</span>
           </div>

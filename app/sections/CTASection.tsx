@@ -8,13 +8,13 @@ export default function CTASection() {
           
           {/* Texto e subtexto no canto superior direito */}
           <div className="absolute top-8 right-8 text-right z-10">
-            <h2 className="text-5xl font-bold mb-4 text-gray-800">Text</h2>
-            <p className="text-xl text-gray-700">Text</p>
+            <h2 className="text-5xl font-bold mb-4 text-gray-800">Transforme a Educação</h2>
+            <p className="text-xl text-gray-700">Junte-se à Lumie e faça a diferença na vida dos estudantes neurodivergentes</p>
           </div>
           
           {/* Texto pequeno no canto inferior esquerdo */}
           <div className="absolute bottom-8 left-8">
-            <p className="text-gray-800 text-lg font-semibold">Text</p>
+            <p className="text-gray-800 text-lg font-semibold">Entre em contato hoje</p>
           </div>
         </div>
       </div>

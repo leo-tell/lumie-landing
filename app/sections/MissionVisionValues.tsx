@@ -5,19 +5,19 @@ export default function MissionVisionValues() {
     {
       title: 'Missão',
       color: 'bg-[#EF5A5A]',
-      iconImage: '/assets/icons/mission-icon.png',
+      iconImage: '/assets/icons/mission-icon.svg',
       content: 'Promover inclusão real e sustentável na comunidade, através de investigação científica, capacitação nas escolas e na comunidade, através da avaliação especializada, capacitação de profissionais, fornecimento de suporte familiar — criando crianças, jovens e adultos neurodivergentes para transformar vidas.'
     },
     {
       title: 'Visão',
       color: 'bg-[#2ECC71]',
-      iconImage: '/assets/icons/vision-icon.png',
+      iconImage: '/assets/icons/vision-icon.svg',
       content: 'Ser a principal instituição de referência em inclusão neurodivergente no Sul do Brasil, reconhecida pela prática de capacitação e formação profissional — conectando Pesquisa à Prática como uma ciência, transformando comunidade e eficiência operacional.'
     },
     {
       title: 'Valores',
       color: 'bg-[#F4C430]',
-      iconImage: '/assets/icons/values-icon.png',
+      iconImage: '/assets/icons/values-icon.svg',
       content: 'Trabalhar com ciência, disciplina e humanização para oferecer neurodiversidade não baseada em dados, transferência e impacto mensuráveis — sem utopia que não se concretiza e sem colaborar com percepções para garantir sustentabilidade e desenvolvimento a cada pessoa atendida.'
     }
   ];

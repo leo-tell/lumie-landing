@@ -140,10 +140,12 @@ export default function SolutionsSection() {
               
               <div className="flex-1">
                 <div className="relative h-80 w-full rounded-2xl overflow-hidden bg-gray-800">
-                  {/* Image placeholder - adicionar imagens em /public/assets/images/ */}
-                  <div className="absolute inset-0 flex items-center justify-center text-gray-500">
-                    <span className="text-sm">Adicionar imagem: {solution.image}</span>
-                  </div>
+                  <Image 
+                    src={solution.image} 
+                    alt={solution.title} 
+                    fill 
+                    className="object-cover rounded-2xl" 
+                  />
                 </div>
               </div>
             </div>
